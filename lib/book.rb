@@ -3,6 +3,8 @@ class Book
     @title = title
   end
 
+  attr_accessor :title
+  
   attr_writer :author
   attr_reader :author
   attr_accessor :author
