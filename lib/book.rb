@@ -10,4 +10,13 @@ class Book
   attr_reader :author
   attr_accessor :author
 
+  attr_writer :page_count
+  attr_accessor :page_count
+
+  attr_writer :genre
+  attr_accessor :genre
+
+  def turn_page
+    
+
 end
